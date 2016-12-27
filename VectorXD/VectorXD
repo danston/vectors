@@ -1,0 +1,25 @@
+/*! FILE VectorXD
+ 
+	Author: Dmitry Anisimov
+	Date: 22.06.2013
+	Mail: danston@ymail.com
+	Web: http://www.anisimovdmitry.com
+ 
+*/
+
+#ifndef VectorXD_H
+#define VectorXD_H
+
+#include "inc/Vector2D.h"
+#include "inc/Vector3D.h"
+#include "inc/Vector4D.h"
+
+namespace _VectorXD {
+
+	using namespace _Vector2D;
+	using namespace _Vector3D;
+	using namespace _Vector4D;
+
+}
+
+#endif // VectorXD_H
